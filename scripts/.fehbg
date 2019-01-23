@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --bg-fill '/home/boti/Pictures/wallpaper.png' 
