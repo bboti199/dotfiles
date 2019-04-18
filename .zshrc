@@ -1,14 +1,17 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.local/bin:$HOME/go/bin:$PATH
+export TERM="xterm-256color"
 
 # Path to your oh-my-zsh installation.
   export ZSH="/home/boti/.oh-my-zsh"
+
+POWERLEVEL9K_MODE='nerdfont-complete'
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="materialshell"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -64,6 +67,7 @@ ZSH_THEME="materialshell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  k
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -98,3 +102,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 alias clone="git clone"
+alias python=python3
+alias pip=pip3
+
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon context dir newline status)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(battery vpn_ip time)
+POWERLEVEL9k_PROMPT_ADD_NEWLINE=true
+POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND='white'
