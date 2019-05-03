@@ -1,14 +1,16 @@
 [/]
-use-transparent-background=false
+use-system-font=true
 foreground-color='rgb(199,212,219)'
-default-size-rows=27
-palette=['rgb(40,47,48)', 'rgb(255,68,62)', 'rgb(70,229,64)', 'rgb(255,193,53)', 'rgb(66,165,245)', 'rgb(216,27,96)', 'rgb(0,172,193)', 'rgb(245,245,245)', 'rgb(43,52,53)', 'rgb(255,68,62)', 'rgb(70,229,64)', 'rgb(255,193,53)', 'rgb(66,165,245)', 'rgb(216,27,96)', 'rgb(0,172,193)', 'rgb(245,245,245)']
+default-size-rows=25
+use-transparent-background=false
+default-size-columns=130
 bold-color-same-as-fg=true
 scrollbar-policy='never'
-default-size-columns=130
+palette=['rgb(38,50,51)', 'rgb(255,68,62)', 'rgb(70,229,64)', 'rgb(255,193,53)', 'rgb(66,165,245)', 'rgb(216,27,96)', 'rgb(0,172,193)', 'rgb(245,245,245)', 'rgb(43,52,53)', 'rgb(255,68,62)', 'rgb(70,229,64)', 'rgb(255,193,53)', 'rgb(66,165,245)', 'rgb(216,27,96)', 'rgb(0,172,193)', 'rgb(245,245,245)']
 background-color='rgb(19,19,19)'
 use-theme-transparency=true
-font='Ubuntu Mono 12'
-use-system-font=true
+font='Source Code Variable 10'
+cell-width-scale=1.0
+cell-height-scale=1.0
 visible-name='Default'
 use-theme-colors=false
